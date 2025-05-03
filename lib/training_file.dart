@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.teal,
         appBar: AppBar(
           title: Text('Dicee'),
           backgroundColor: Colors.red,
@@ -21,12 +21,12 @@ class DicePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Row(
-        children: [
+        children: <Widget>[
           Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset('images/dice1.png'),
-            ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset('images/dice1.png'),
+              ),
           ),
           Expanded(
             child: Padding(
